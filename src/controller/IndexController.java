@@ -22,4 +22,9 @@ public class IndexController {
         return mav;
     }   
      
+    @RequestMapping("/hello")
+    public ModelAndView hello() {
+        ModelAndView mav = new ModelAndView("redirect:/index");
+        return mav;
+    }
 }
