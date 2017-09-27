@@ -14,6 +14,8 @@
         <property name="prefix" value="/WEB-INF/page/" />
         <property name="suffix" value=".jsp" />
     </bean>
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"/>
+    
 <!--     <bean id="simpleUrlHandlerMapping" -->
 <!--         class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping"> -->
 <!--         <property name="mappings"> -->
